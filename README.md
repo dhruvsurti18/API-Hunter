@@ -57,6 +57,7 @@ api-hunter/
 ├── package.json
 └── README.md
 
+<img width="1365" height="533" alt="localhost_5174_ (2)" src="https://github.com/user-attachments/assets/fdfabac7-fd90-4f71-ad22-33046c5e034e" />
 
 ---
 
@@ -71,5 +72,4 @@ npm run dev
 Open browser and visit:
 
 http://localhost:5173
-<img width="1365" height="533" alt="localhost_5174_ (2)" src="https://github.com/user-attachments/assets/b2abab1b-bdd7-4937-95c1-76bd6dd112d0" />
 
