@@ -1,16 +1,75 @@
-# React + Vite
+# API-Hunter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Veg Meals Hunter is a React.js web application that fetches and displays vegetarian meals from a public API.  
+This project is created to understand API consumption, React hooks, state management, and dynamic UI rendering.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Fetch vegetarian meals from public API  
+- Search meals by name  
+- Display data dynamically using cards  
+- Loading spinner while fetching data  
+- Error handling for failed API calls  
+- Responsive UI (mobile, tablet, desktop)  
+- Clean and simple design using Material UI  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js  
+- JavaScript (ES6+)  
+- HTML5  
+- CSS3  
+- Material UI  
+- Public API (TheMealDB)  
+
+---
+
+## 🌐 API Used
+
+TheMealDB – Vegetarian Meals  
+https://www.themealdb.com/api/json/v1/1/filter.php?c=Vegetarian  
+
+---
+
+## 📁 Project Folder Structure
+
+api-hunter/
+│
+├── public/
+│
+├── src/
+│ ├── components/
+│ │ ├── Loader.jsx
+│ │ ├── ProductCard.jsx
+│ │ └── Search.jsx
+│ │
+│ ├── pages/
+│ │ └── Home.jsx
+│ │
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+│
+├── package.json
+└── README.md
+
+
+---
+
+## ⚙️ How to Run the Project
+
+1. Clone the repository  
+2. Open terminal in project folder  
+
+```bash
+npm install
+npm run dev
+Open browser and visit:
+
+http://localhost:5173
+<img width="1365" height="533" alt="localhost_5174_ (2)" src="https://github.com/user-attachments/assets/b2abab1b-bdd7-4937-95c1-76bd6dd112d0" />
+
